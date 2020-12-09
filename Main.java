@@ -10,10 +10,12 @@ class Main {
   {
     rosterOne[i] = input.next();
   }
-    String [] rosterTwo = new Sting[12];
-    for (int index = 0; index < roster1.length; index++)
+    String [] rosterTwo = new String[12];
+    for (int index = 0; index < rosterOne.length; index++)
   {
-    roster1[index] = roster2[index];
-    System.out.println(roster1[index]);
+    rosterOne[index] = rosterTwo[index];
+    System.out.println(rosterOne[index]);
+  }
+  System.out.println(rosterTwo + "Zane" + "Walter");
   }
 }
